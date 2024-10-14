@@ -24,7 +24,7 @@ jobs:
           cd /usr/src/gtest
           sudo cmake .
           sudo make
-          sudo cp *.a /usr/lib  # Copiez les bibliothèques compilées
+          sudo cp ./lib/* /usr/lib  # Copiez les bibliothèques compilées
 
       - name: Build Project
         run: |
