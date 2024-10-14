@@ -34,5 +34,5 @@ jobs:
           make
 
       - name: Run tests
-        run: ./test_out  # Remplacez par le chemin correct de votre exécutable
+        run: build/test_out  # Remplacez par le chemin correct de votre exécutable
 
