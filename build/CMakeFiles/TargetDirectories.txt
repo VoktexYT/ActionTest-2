@@ -1,0 +1,3 @@
+/home/voktes/Desktop/ActionTest-2/build/CMakeFiles/test_out.dir
+/home/voktes/Desktop/ActionTest-2/build/CMakeFiles/edit_cache.dir
+/home/voktes/Desktop/ActionTest-2/build/CMakeFiles/rebuild_cache.dir
