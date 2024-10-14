@@ -14,7 +14,12 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Set up C++ environment
-        run: sudo apt-get install -y build-essential
+        run:
+          sudo apt update
+          sudo apt install g++
+          sudo apt-get install -y build-essential
+          sudo apt install -y libstdc++6
+          sudo apt install -y libc6
 
       - name: Build the project
         run: |
